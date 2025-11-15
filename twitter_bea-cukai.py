@@ -25,7 +25,7 @@ Original file is located at
 
 token_twitter= 'e26313c0df8d5bf08dd3c6c5a2d3ae512929174c' #'201c6ba49f493eb6c439d1820da737d0f2a12d63'
 
-# Crawling data tweet
+# Scraping data tweet
 
 file= 'bea_cukai2023(23).csv'
 katakunci= 'bea cukai lang:id since:2023-09-01 until:2023-09-13'
@@ -44,7 +44,7 @@ df = pd.read_csv(file_path)
 # Display the DataFrame
 display(df)
 
-# crawlingt data reply
+# scraping data reply
 
 # files='twitter_data.csv'
 # twitter_thread='https://x.com/AnakLolina2/status/1789107927145652376'
