@@ -44,6 +44,9 @@ df = pd.read_csv(file_path)
 # Display the DataFrame
 display(df)
 
+#simpan file
+#df.to_csv('twt_beacukai.csv', index=False)
+
 # scraping data reply
 
 # files='twitter_data.csv'
@@ -54,3 +57,4 @@ display(df)
 
 num_twt=len(df)
 print(f'jumlah tweet={num_twt}.')
+
